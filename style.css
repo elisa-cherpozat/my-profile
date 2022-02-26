@@ -1,0 +1,105 @@
+/*Colors and fonts*/
+
+body{
+	background-color: EEEEEE;
+	color: black;
+	font-size: 16px;
+}
+
+h1{
+	color: #1C658C;
+	font-family: 'Noto Serif Display', serif;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-synthesis: 40px;
+	font-size: 50px;
+	
+}
+h2{
+	color: #3d8fbe;
+	font-size: 25px;
+	font-family: 'Noto Serif Display', serif;
+	
+}
+a{
+	color: #0b5c8c;
+	font-family: 'Noto Serif Display', serif;
+
+}
+a:hover{
+	color: #00B4D8;
+}
+
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px){
+.container{
+	width: 600px;
+	}
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #0b5c8c;
+	color: white;
+	padding: 3px 15px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: #0b5c8c;
+	color: #00B4D8
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(270, 270);
+}
+
+/*Design adjustments using id*/
+
+#Introduction p {
+margin-bottom: 30px;
+}
+
+
+
+
+
